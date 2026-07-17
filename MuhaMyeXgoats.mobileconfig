@@ -5,61 +5,63 @@
 <plist version="1.0">
 <dict>
 
-<key>PayloadType</key>
-<string>Configuration</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
 
-<key>PayloadVersion</key>
-<integer>1</integer>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
 
-<key>PayloadIdentifier</key>
-<string>com.muhamye.freefire.dns</string>
+    <key>PayloadIdentifier</key>
+    <string>com.muhamye.ios26dns</string>
 
-<key>PayloadUUID</key>
-<string>A3B7C920-5F12-4D88-91E4-2A7C6B8F0011</string>
+    <key>PayloadUUID</key>
+    <string>A3B7C920-5F12-4D88-91E4-2A7C6B8F0011</string>
 
-<key>PayloadDisplayName</key>
-<string>MuhaMye Free Fire DNS iOS26</string>
+    <key>PayloadDisplayName</key>
+    <string>MuhaMye Free Fire DNS iOS26</string>
 
-<key>PayloadOrganization</key>
-<string>MuhaMye</string>
+    <key>PayloadDescription</key>
+    <string>Optimized DNS profile for gaming.</string>
 
-<key>PayloadContent</key>
-<array>
+    <key>PayloadOrganization</key>
+    <string>MuhaMye</string>
 
-<dict>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
 
-<key>PayloadType</key>
-<string>com.apple.dnsSettings.managed</string>
+    <key>PayloadContent</key>
+    <array>
 
-<key>PayloadVersion</key>
-<integer>1</integer>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
 
-<key>PayloadIdentifier</key>
-<string>com.muhamye.dns.freefire</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
 
-<key>PayloadUUID</key>
-<string>D8E45172-9B33-4C77-A210-5F9E8D6A0022</string>
+            <key>PayloadIdentifier</key>
+            <string>com.muhamye.dns.payload</string>
 
-<key>PayloadDisplayName</key>
-<string>Free Fire DNS</string>
+            <key>PayloadUUID</key>
+            <string>D8E45172-9B33-4C77-A210-5F9E8D6A0022</string>
 
-<key>DNSSettings</key>
-<dict>
+            <key>PayloadDisplayName</key>
+            <string>Gaming DNS</string>
 
-<key>DNSProtocol</key>
-<string>IPv4</string>
+            <key>DNSSettings</key>
+            <dict>
 
-<key>ServerAddresses</key>
-<array>
-<string>1.1.1.1</string>
-<string>8.8.8.8</string>
-</array>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
 
-</dict>
+                <key>ServerURL</key>
+                <string>https://dns.google/dns-query</string>
 
-</dict>
+            </dict>
 
-</array>
+        </dict>
+
+    </array>
 
 </dict>
 </plist>
