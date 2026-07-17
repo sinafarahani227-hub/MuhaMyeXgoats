@@ -15,7 +15,7 @@
     <string>com.muhamye.gamingdns</string>
 
     <key>PayloadUUID</key>
-    <string>11111111-2222-3333-4444-555555555555</string>
+    <string>A3B7C920-5F12-4D88-91E4-2A7C6B8F0011</string>
 
     <key>PayloadDisplayName</key>
     <string>MuhaMyeXgoats Gaming DNS</string>
@@ -38,7 +38,7 @@
             <string>com.muhamye.dns</string>
 
             <key>PayloadUUID</key>
-            <string>66666666-7777-8888-9999-AAAAAAAAAAAA</string>
+            <string>D8E45172-9B33-4C77-A210-5F9E8D6A0022</string>
 
             <key>PayloadDisplayName</key>
             <string>Gaming DNS</string>
