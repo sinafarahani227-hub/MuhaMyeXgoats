@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+
+    <key>PayloadIdentifier</key>
+    <string>com.muhamye.gamingdns</string>
+
+    <key>PayloadUUID</key>
+    <string>11111111-2222-3333-4444-555555555555</string>
+
+    <key>PayloadDisplayName</key>
+    <string>MuhaMyeXgoats Gaming DNS</string>
+
+    <key>PayloadOrganization</key>
+    <string>MuhaMye</string>
+
+    <key>PayloadContent</key>
+    <array>
+
+        <dict>
+
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+
+            <key>PayloadIdentifier</key>
+            <string>com.muhamye.dns</string>
+
+            <key>PayloadUUID</key>
+            <string>66666666-7777-8888-9999-AAAAAAAAAAAA</string>
+
+            <key>PayloadDisplayName</key>
+            <string>Gaming DNS</string>
+
+            <key>DNSSettings</key>
+            <dict>
+
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+
+                <key>ServerURL</key>
+                <string>https://cloudflare-dns.com/dns-query</string>
+
+            </dict>
+
+        </dict>
+
+    </array>
+
+</dict>
+</plist>
