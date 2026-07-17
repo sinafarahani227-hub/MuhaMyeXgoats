@@ -5,58 +5,61 @@
 <plist version="1.0">
 <dict>
 
-    <key>PayloadType</key>
-    <string>Configuration</string>
+<key>PayloadType</key>
+<string>Configuration</string>
 
-    <key>PayloadVersion</key>
-    <integer>1</integer>
+<key>PayloadVersion</key>
+<integer>1</integer>
 
-    <key>PayloadIdentifier</key>
-    <string>com.muhamye.gamingdns</string>
+<key>PayloadIdentifier</key>
+<string>com.muhamye.freefire.dns</string>
 
-    <key>PayloadUUID</key>
-    <string>A3B7C920-5F12-4D88-91E4-2A7C6B8F0011</string>
+<key>PayloadUUID</key>
+<string>A3B7C920-5F12-4D88-91E4-2A7C6B8F0011</string>
 
-    <key>PayloadDisplayName</key>
-    <string>MuhaMyeXgoats Gaming DNS</string>
+<key>PayloadDisplayName</key>
+<string>MuhaMye Free Fire DNS iOS26</string>
 
-    <key>PayloadOrganization</key>
-    <string>MuhaMye</string>
+<key>PayloadOrganization</key>
+<string>MuhaMye</string>
 
-    <key>PayloadContent</key>
-    <array>
+<key>PayloadContent</key>
+<array>
 
-        <dict>
+<dict>
 
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
 
-            <key>PayloadVersion</key>
-            <integer>1</integer>
+<key>PayloadVersion</key>
+<integer>1</integer>
 
-            <key>PayloadIdentifier</key>
-            <string>com.muhamye.dns</string>
+<key>PayloadIdentifier</key>
+<string>com.muhamye.dns.freefire</string>
 
-            <key>PayloadUUID</key>
-            <string>D8E45172-9B33-4C77-A210-5F9E8D6A0022</string>
+<key>PayloadUUID</key>
+<string>D8E45172-9B33-4C77-A210-5F9E8D6A0022</string>
 
-            <key>PayloadDisplayName</key>
-            <string>Gaming DNS</string>
+<key>PayloadDisplayName</key>
+<string>Free Fire DNS</string>
 
-            <key>DNSSettings</key>
-            <dict>
+<key>DNSSettings</key>
+<dict>
 
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
+<key>DNSProtocol</key>
+<string>IPv4</string>
 
-                <key>ServerURL</key>
-                <string>https://cloudflare-dns.com/dns-query</string>
+<key>ServerAddresses</key>
+<array>
+<string>1.1.1.1</string>
+<string>8.8.8.8</string>
+</array>
 
-            </dict>
+</dict>
 
-        </dict>
+</dict>
 
-    </array>
+</array>
 
 </dict>
 </plist>
