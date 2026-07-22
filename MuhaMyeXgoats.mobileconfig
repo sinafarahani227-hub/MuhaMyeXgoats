@@ -2,47 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>PayloadContent</key>
+    <key>Developer</key>
+    <string>Garena</string>
+    <key>DNS</key>
     <array>
         <dict>
-            <key>PayloadDescription</key>
-            <string>Configures DNS settings for optimal Free Fire performance</string>
-            <key>PayloadDisplayName</key>
-            <string>Free Fire DNS Configuration</string>
-            <key>PayloadIdentifier</key>
-            <string>com.example.freefire.dns</string>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>PayloadUUID</key>
-            <string>12345678-1234-5678-1234-567812345678</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-                <key>ServerAddresses</key>
-                <array>
-                    <string>208.67.222.222</string>
-                    <string>208.67.220.220</string>
-                </array>
-                <key>SearchDomains</key>
-                <array>
-                    <string>freefire.com</string>
-                    <string>garena.com</string>
-                </array>
-            </dict>
+            <key>DNSProtocol</key>
+            <string>TCP</string>
+            <key>DNSServer</key>
+            <string>8.8.8.8</string>
+            <key>DNSName</key>
+            <string>Google DNS</string>
         </dict>
-    </array>
-    <key>PayloadDisplayName</key>
-    <string>Free Fire DNS Configuration Profile</string>
-    <key>PayloadIdentifier</key>
-    <string>com.example.freefire.dns.profile</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>87654321-4321-8765-4321-876543218765</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-</dict>
-</plist>
+        <dict>
+            <key>DNSProtocol</key>
+            <string>TCP</string>
+            <key>DNSServer</key>
+            <string>1.1.1.1</string>
+            <key>DNSName</key>
+            <string>Cloudflare DNS</string>
+        </dict>
+    </array
