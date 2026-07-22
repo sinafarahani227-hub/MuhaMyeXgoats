@@ -1,25 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>Developer</key>
-    <string>Garena</string>
-    <key>DNS</key>
-    <array>
-        <dict>
-            <key>DNSProtocol</key>
-            <string>TCP</string>
-            <key>DNSServer</key>
-            <string>8.8.8.8</string>
-            <key>DNSName</key>
-            <string>Google DNS</string>
-        </dict>
-        <dict>
-            <key>DNSProtocol</key>
-            <string>TCP</string>
-            <key>DNSServer</key>
-            <string>1.1.1.1</string>
-            <key>DNSName</key>
-            <string>Cloudflare DNS</string>
-        </dict>
-    </array
+// FreeFireOptimizer.cpp
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <chrono>
+#include <thread>
+#include <random>
+#include <algorithm>
+
+// Define weapon types
+enum WeaponType {
+    SHOTGUN,
+    SMG,
+    ONE_TAP
+};
+
+// Define weapon structure
+struct Weapon {
+    WeaponType type;
+    std::string name;
+    float damage;
+    float fireRate;
+    float recoil;
+    float accuracy;
+};
+
+// Define player structure
+struct Player {
+    float x, y, z;
+    bool isEnemy;
+    float health;
+};
+
+// Global variables
+std::vector<Weapon> weapons = {
+    {SHOTGUN, "Double-Barrel Shotgun", 150.0f, 0.5f, 10.0f, 0.8f},
+    {SMG, "MP40", 25.0f, 0.1f, 5.0f, 0.9f},
+    {ONE_TAP, "Desert Eagle", 100.0
